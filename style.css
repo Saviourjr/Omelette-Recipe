@@ -1,0 +1,99 @@
+.container{background-color:hsl(30, 54%, 90%) ;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+max-width: 100%;}
+body{background-color:hsl(30, 54%, 90%) ;
+width: 100%;
+padding-bottom: 5rem;}
+.card-0{background-color: white;
+width: 730px;
+margin-top: 110px;
+border-radius: 30px;
+overflow:hidden;}
+
+.card {background-color:white ;
+    align-items: center;
+width: 655px;
+padding-left: 38px;
+padding-top: 42px;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: .001rem;
+    color: var(--wenge-brown);
+}
+.prep{color: var(--dark-raspberry);
+
+        
+}
+h4{    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color:hsl(14, 45%, 36%) ;
+}
+h2{ 
+    margin-bottom: 1.3rem;
+    margin-top: 1.65rem;
+        font-family: "Young Serif", serif;
+        font-weight: 900;
+        font-style: normal;
+    font-size: 1.7rem;
+    letter-spacing: .028rem;
+    color: var(--nutmeg);}
+
+.preparation{background-color:hsl(330, 100%, 98%) ;
+padding: .5rem;
+}
+.unordered{list-style-type: disc;}
+li{color:hsl(30, 10%, 34%) ;}
+.list-item{font-weight: bold;}
+.img{border-radius: 10px;}
+h1{    margin-top: 1.5rem;
+    font-size: 3rem;
+    font-family: "Young Serif", serif;
+    font-weight: light;
+    transition: .2s;
+    color:var(--dark-charcoal) ;
+}
+.nutrition .row {
+    margin-top: .1rem;
+    padding-bottom: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+text-underline-position:inherit;
+-ms-text-underline-position: under;}
+    .nutrition .col-1 {
+        width: 51%;
+    
+    }
+    .nutrition .col-2 {
+        width: 49%;
+        height: 43px;
+    }
+    .nutrition .col-1 p {
+        margin: 0 0 0 2rem;
+    }
+    .nutrition
+    .nutrition .row:last-of-type {
+        border: none;}
+
+        :root {
+            --nutmeg: hsl(14, 45%, 36%);
+            --dark-raspberry: hsl(332, 51%, 32%);
+            --white: hsl(0, 0%, 100%);
+            --rose-white: hsl(330, 100%, 98%);
+            --eggshell: hsl(30, 54%, 90%);
+            --light-grey: hsl(30, 18%, 87%);
+            --wenge-brown: hsl(30, 10%, 34%);
+            --dark-charcoal: hsl(24, 5%, 18%);
+        }
+        
